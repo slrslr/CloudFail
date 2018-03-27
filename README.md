@@ -26,7 +26,21 @@ First we need to install pip3 for python3 dependencies:
 
 Then we can run through dependency checks:
 
+```$ wget https://github.com/m0rtem/CloudFail/raw/master/requirements.txt```
+
 ```$ pip3 install -r requirements.txt```
+
+Then we download CloudFail files:
+
+```$ wget https://github.com/m0rtem/CloudFail/raw/master/cloudfail.py```
+
+```$ wget https://raw.githubusercontent.com/m0rtem/CloudFail/master/DNSDumpsterAPI.py```
+
+```$ mkdir data;cd data ```
+
+```$ wget https://raw.githubusercontent.com/m0rtem/CloudFail/master/data/subdomains.txt```
+
+```$ wget https://raw.githubusercontent.com/m0rtem/CloudFail/master/data/cf-subnet.txt;cd ..```
 
 #### Usage
 
